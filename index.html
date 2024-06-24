@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="summary-site.js"></script>
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div class="container container--main">
+    <div class="main">
+      <div class="result">
+        <h1 class="result__title">Your Score</h1>
+        <div class="result__score">
+          <h2 class="result__your-score">76</h2>
+          <p class="result__max-score">of 100</p>
+        </div>
+        <h2 class="result__conclusion-title">Great</h2>
+        <p class="result__conclusion-description">Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
+      <div class="summary">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__table">
+          <div class="summary__table-row summary__table-row--reaction">
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <p class="summary__table-row-title summary__table-row-title--reaction">Reaction</p>
+            <p class="summary__table-row-your-score"><span class="summary__table-row-max-score"></span> / 100</p>
+          </div>
+          <div class="summary__table-row summary__table-row--memory">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <p class="summary__table-row-title summary__table-row-title--memory">Memory</p>
+            <p class="summary__table-row-your-score"><span class="summary__table-row-max-score"></span> / 100</p>
+          </div>
+          <div class="summary__table-row summary__table-row--verbal">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <p class="summary__table-row-title summary__table-row-title--verbal">Verbal</p>
+            <p class="summary__table-row-your-score"><span class="summary__table-row-max-score"></span> / 100</p>
+          </div>
+          <div class="summary__table-row summary__table-row--visual">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <p class="summary__table-row-title summary__table-row-title--visual">Visual</p>
+            <p class="summary__table-row-your-score"><span class="summary__table-row-max-score"></span> / 100</p>
+          </div>
+          <button class="summary__btn"><span class="summary__btn-text">Continue</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
